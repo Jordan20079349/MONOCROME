@@ -1,8 +1,37 @@
-.section1 {
-    background-image: url("asset/bg-image-hero.png");
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
+.section1 {
+    
+    background-color: blue;
+
+
+
+    
+    background-image: url("asset/bg-image-hero.png");
+    height: 70vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 
 .white{
 color: white;
 }
+
+.supp-puces{
+list-style-type: none;
+}
+a {
+text-decoration: none; 
+color: black;
+}
+
+.large33{
+width: 33%;
+}
+
+body{
+    font-family: Rubik;
+}
+ 
